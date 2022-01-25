@@ -2,7 +2,7 @@ import './topbar.css'
 import {Link, useNavigate} from 'react-router-dom';
 
 export default function TopBar() {
-    const user = false;
+    const user = true;
     // const navigate=useNavigate()
     return (
         <div className='top'>

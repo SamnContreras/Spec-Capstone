@@ -15,7 +15,7 @@ import {
 import Post from "./components/post/Post";
 
 function App() {
-  const user = false;
+  const user = true;
   return (
     <Router>
       <TopBar />
